@@ -73,18 +73,18 @@ const Homepage = () => {
       <div className="fixed inset-0 overflow-hidden pointer-events-none">
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,_rgba(17,24,39,0),_rgba(17,24,39,1))]"></div>
         {/*Slogan*/}
-        <div className="absolute inset-0 flex items-center justify-center transform translate-y-[215px]">
-          <div className="relative w-full">
+        <div className="absolute inset-0 flex items-start justify-center pt-20 sm:pt-32 px-4 transform translate-y-[253px]">
+          <div className="relative w-full max-w-7xl mx-auto">
             {/* Background glow effect */}
-            <div className="absolute w-full text-center transform -translate-y-40 scale-110">
-              <h2 className="text-4xl md:text-6xl lg:text-8xl font-bold text-blue-600/10 whitespace-nowrap blur-2xl animate-pulse">
+            <div className="text-center">
+              <h2 className="text-3xl sm:text-4xl md:text-6xl lg:text-8xl font-bold text-blue-600/10 blur-2xl animate-pulse break-words sm:whitespace-nowrap">
                 Think Smart, Think VeedIQ
               </h2>
             </div>
             
             {/* Main slogan with gradient */}
-            <div className="absolute w-full text-center transform -translate-y-40">
-              <h2 className="text-4xl md:text-6xl lg:text-8xl font-bold whitespace-nowrap 
+            <div className="absolute top-0 w-full text-center">
+              <h2 className="text-3xl sm:text-4xl md:text-6xl lg:text-8xl font-bold break-words sm:whitespace-nowrap
                 bg-gradient-to-r from-blue-400/20 via-purple-500/20 to-blue-600/20 
                 bg-clip-text text-transparent 
                 animate-gradient-x">
@@ -93,8 +93,8 @@ const Homepage = () => {
             </div>
             
             {/* Overlay effect */}
-            <div className="absolute w-full text-center transform -translate-y-40">
-              <h2 className="text-4xl md:text-6xl lg:text-8xl font-bold whitespace-nowrap">
+            <div className="absolute top-0 w-full text-center">
+              <h2 className="text-3xl sm:text-4xl md:text-6xl lg:text-8xl font-bold break-words sm:whitespace-nowrap">
                 <span className="bg-clip-text text-transparent bg-gradient-to-r 
                   from-blue-400/30 via-purple-500/30 to-blue-600/30 
                   blur-sm animate-pulse">
